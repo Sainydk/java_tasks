@@ -1,17 +1,17 @@
-/*Задача 1.1.7-c (Тема 4). Проведите вычисления
+/*Задача 1.1.7-d (Есть в учебнике, тема 4). Проведите вычисления:
 
-x = 10, y = 20;
+x = 30, y = 40;
 
-z = sqrt (y-x);
+z = |40-30| //модуль убирает знак минус у числа. Он оставляет положительные числа такими же, а отрицательные делает положительными. В Java это Math.abs ().
 
-z = z +1;*/
+z = z*z;*/
 
 package javaapplication8;
 
 public class Calculator {
     public static void main(String[] args) {
-        int x = 10;
-        int y = 20;
-        System.out.println(Math.sqrt(y - x) + 1);
+        int x = 30;
+        int y = 40;
+        System.out.println((y - x) * (y - x));
     }
 }
