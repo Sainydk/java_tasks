@@ -13,7 +13,7 @@ public class Calculator {
         x = x + 50;
         int u = 100;
         int m = u * 2;
-        int k = (1 / 5) * 1000;
+        double k = (1.0 / 5) * 1000;
 
         System.out.println(x);
         System.out.println(m);
