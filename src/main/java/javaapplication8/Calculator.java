@@ -1,11 +1,14 @@
-/*Задача 1.1.7-a (Тема 4). Пусть x = -10; сколько будет Math.sqrt (x) ?
-Выведите на печать это значение.*/
+/*Задача 1.1.7-b (Тема 4).
+Пусть x = 5, y = 10;
+Выведите на экран sqrt (x*x + y*y);
+Это и есть гипотенуза треугольника со сторонами x, y.*/
 
 package javaapplication8;
 
 public class Calculator {
     public static void main(String[] args) {
-        int x = -10;
-        System.out.println(Math.sqrt(x));
+        int x = 5;
+        int y = 10;
+        System.out.println(Math.sqrt((x * x) + (y * y)));
     }
 }
