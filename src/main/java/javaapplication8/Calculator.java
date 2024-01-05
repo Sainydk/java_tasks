@@ -14,5 +14,6 @@ public class Calculator {
 
         System.out.println(10 * a + b);
         System.out.println(b * Math.sqrt(a));
+        System.out.println(Math.pow(a, b) - 1);
     }
 }
