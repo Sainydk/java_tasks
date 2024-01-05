@@ -1,4 +1,5 @@
-/*Задача 1.1.3 (Тема 5). Запустите код. Подумайте, почему программа выдаст отрицательное число вместо двух миллиардов:*/
+/*Задача 1.1.4 (Тема 5). Возможно вам придется гуглить и ориентироваться на местности - это нормально.
+Исправьте ошибки в коде:*/
 
 package javaapplication8;
 
@@ -7,11 +8,8 @@ public class Calculator {
 
         System.out.println("Привет!");
 
-        System.out.println(Integer.MAX_VALUE);
-
-        int z = 2147483647 + 1;
-        System.out.println(z);
-        long y = 2147483647l + 1;
+        float x = 2.0f - 1.2f;
+        float y = x;
         System.out.println(y);
     }
 }
